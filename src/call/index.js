@@ -70,7 +70,7 @@ function ZegoUIKitPrebuiltCall(props, ref) {
         isVisible = true,
         title: topTitle = userName || '',
         buttons: topButtons = [],
-        maxCount: topMaxCount = 3,
+        maxCount2: topMaxCount = 3,
         extendButtons: topExtendButtons = [],
         hideAutomatically: topHideAutomatically = true,
         hideByClick: topHideByClick = true,
