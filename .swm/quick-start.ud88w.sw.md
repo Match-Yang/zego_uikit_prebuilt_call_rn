@@ -13,7 +13,17 @@ app_version: 1.8.5
 
 *   Create a `callID` that represents the call you want to make.
 
-As you can see, you can use---------
+As you can see, you can use `ONE_ON_ONE_VIDEO_CALL_CONFIG`<swm-token data-swm-token=":src/services/defines.js:5:2:2:`const ONE_ON_ONE_VIDEO_CALL_CONFIG = {`"/> for one on one vide call and use `GROUP_VIDEO_CALL_CONFIG`<swm-token data-swm-token=":src/services/defines.js:55:2:2:`const GROUP_VIDEO_CALL_CONFIG = {`"/> for group video call.
+
+If you want to hangUp when the time out, you can call `showLeaveAlert`<swm-token data-swm-token=":src/call/index.js:163:3:3:`    const showLeaveAlert = () =&gt; {`"/> to warn the user.
+
+The parameters you can set for the `bottomMenuBarConfig`<swm-token data-swm-token=":src/call/index.js:34:1:1:`        bottomMenuBarConfig = {},`"/>
+
+`maxCount2`<swm-token data-swm-token=":src/call/index.js:73:1:1:`        maxCount2: topMaxCount = 3,`"/> : 最多只显示maxCount个按钮
+
+`buttons`<swm-token data-swm-token=":src/call/index.js:56:1:1:`        buttons = [`"/>: 指定在底部默认显示的按钮
+
+<br/>
 
 ```
 // App.js
