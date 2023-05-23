@@ -95,6 +95,10 @@ const GROUP_VOICE_CALL_CONFIG = {
     },
 };
 
+const initService = (appid, appsign) => {
+
+}
+
 export {
     ONE_ON_ONE_VIDEO_CALL_CONFIG,
     ONE_ON_ONE_VOICE_CALL_CONFIG,
