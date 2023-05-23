@@ -14,7 +14,7 @@ app_version: 1.9.7
 *   Create a `callID` that represents the call you want to make.
 
 
-If you want to hangUp when the time out, you can call `showLeaveAlert`<swm-token data-swm-token=":src/call/index.js:163:3:3:`    const showLeaveAlert = () =&gt; {`"/> to warn the user.
+
 
 The parameters you can set for the `bottomMenuBarConfig`<swm-token data-swm-token=":src/call/index.js:34:1:1:`        bottomMenuBarConfig = {},`"/>
 
