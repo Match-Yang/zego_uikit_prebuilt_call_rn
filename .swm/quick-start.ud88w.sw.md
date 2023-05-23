@@ -66,7 +66,7 @@ export default function VoiceCallPage(props) {
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 src/services/index.js
 ```javascript
-44         init(appID, appSign, userID, userName, plugins, config = {}) {
+44         init(appID, appSign, userID, userName, plugins, config = {})
 ```
 
 <br/>
