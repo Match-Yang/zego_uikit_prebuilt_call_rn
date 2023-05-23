@@ -2,7 +2,7 @@
 id: ud88w
 title: Quick Start
 file_version: 1.1.2
-app_version: 1.8.5
+app_version: 1.9.7
 ---
 
 ## Using the ZegoUIKitPrebuiltCall Component in your project
@@ -22,6 +22,8 @@ The parameters you can set for the `bottomMenuBarConfig`<swm-token data-swm-toke
 `maxCount2`<swm-token data-swm-token=":src/call/index.js:73:1:1:`        maxCount2: topMaxCount = 3,`"/> : 最多只显示maxCount个按钮
 
 `buttons`<swm-token data-swm-token=":src/call/index.js:56:1:1:`        buttons = [`"/>: 指定在底部默认显示的按钮
+
+<br/>
 
 <br/>
 
