@@ -1,8 +1,8 @@
 ---
 id: ud88w
-title: Quick Start
+title: Quick Start2
 file_version: 1.1.2
-app_version: 1.9.8
+app_version: 1.9.14
 ---
 
 ## Using the ZegoUIKitPrebuiltCall Component in your projectfewfewfew
