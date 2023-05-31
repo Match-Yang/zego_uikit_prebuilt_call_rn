@@ -2,14 +2,12 @@
 id: 2bcp19f0
 title: FAQ
 file_version: 1.1.2
-app_version: 1.9.8
+app_version: 1.9.14
 ---
 
-## fewafewa
+## 1\. 如何获取日志
 
-<br/>
-
-<br/>
+## 2\. 如何解决离线呼叫无法收到问题
 
 <br/>
 

@@ -1,19 +1,18 @@
 ---
 id: ud88w
-title: Quick Start2
+title: Quick Start
 file_version: 1.1.2
 app_version: 1.9.14
 ---
 
-## Using the ZegoUIKitPrebuiltCall Component in your projectfewfewfew
+## Using the ZegoUIKitPrebuiltCall Component in your project
 
 *   Go to [ZEGOCLOUD Admin Console](https://console.zegocloud.com/), get the `appID` and `appSign` of your project.
 
 *   Specify the `userID` and `userName` for connecting the Call Kit service.
 
 *   Create a `callID` that represents the call you want to make.
-
-111111111/<br/>
+<br/>
 
 <br/>
 
@@ -56,7 +55,7 @@ Service初始化后的回调
 
 单人视频通话配置
 
-`turnOnCameraWhenJoining`<swm-token data-swm-token=":src/services/defines.js:6:1:1:`    turnOnCameraWhenJoining: true,`"/>: 加入房间时打开摄像头
+`turnOnCameraWhenJoining`<swm-token data-swm-token=":src/services/defines.js:6:1:1:`    turnOnCameraWhenJoining: true,`"/>
 
 `turnOnMicrophoneWhenJoining`<swm-token data-swm-token=":src/services/defines.js:7:1:1:`    turnOnMicrophoneWhenJoining: true,`"/>: 加入房间时打开麦克风
 
