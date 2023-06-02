@@ -2,10 +2,16 @@
 id: o2v3x
 title: Overview
 file_version: 1.1.2
-app_version: 1.8.5
+app_version: 1.9.14
 ---
 
 **Call Kit** is a prebuilt feature-rich call component, which enables you to build **one-on-one and group voice/video calls** into your app with only a few lines of code.
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimmio-content/o/repositories%2FZ2l0aHViJTNBJTNBemVnb191aWtpdF9wcmVidWlsdF9jYWxsX3JuJTNBJTNBTWF0Y2gtWWFuZw%3D%3D%2F2b0c7ccd-e9c0-4188-9e42-3274ac6b1a5c.png?alt=media&token=ec2e0552-4101-47dc-8e73-06761c85654a" style="width:'100%'"/></div>
+
+<br/>
 
 And it includes the business logic with the UI, you can add or remove features accordingly by customizing UI components.
 
@@ -126,8 +132,6 @@ yarn ios
 ```
 
 ## Related guide
-
-<br/>
 
 ## Recommended resources
 
