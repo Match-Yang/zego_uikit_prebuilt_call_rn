@@ -1,109 +1,123 @@
 ---
-id: ud88w
 title: Quick Start
-file_version: 1.1.2
-app_version: 1.9.14
 ---
-
 ## Using the ZegoUIKitPrebuiltCall Component in your project
 
-*   Go to [ZEGOCLOUD Admin Console](https://console.zegocloud.com/), get the `appID` and `appSign` of your project.
+- Go to [ZEGOCLOUD Admin Console](https://console.zegocloud.com/), get the `appID` and `appSign` of your project.
 
-*   Specify the `userID` and `userName` for connecting the Call Kit service.
+- Specify the <SwmToken path="/example/src/call/HomeScreen.js" pos="10:1:1" line-data="            userIDs: userID,">`userIDs`</SwmToken> and <SwmToken path="/example/src/call/HomeScreen.js" pos="18:1:1" line-data="            userName: userID,">`userName`</SwmToken> for connecting the Call Kit service.
 
-*   Create a `callID` that represents the call you want to make.
-<br/>
+- Create a <SwmToken path="/example/src/call/HomeScreen.js" pos="19:1:1" line-data="            callID: callID,">`callID`</SwmToken> that represents the call you want to make.&nbsp;
 
-<br/>
+<SwmSnippet path="/src/services/index.js" line="44">
 
-`appID`<swm-token data-swm-token=":src/services/index.js:44:3:3:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>:
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 src/services/index.js
+---
+
+<SwmToken path="/src/services/index.js" pos="44:3:3" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`appID`</SwmToken>:
+
 ```javascript
-44         init(appID, appSign, userID, userName, plugins, config = {}) {
+    init(appID, appSign, userID, userName, plugins, config = {}) {
 ```
 
-<br/>
+---
 
-`appID`<swm-token data-swm-token=":src/services/index.js:44:3:3:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>: jjfeiwoajfoiewa
+</SwmSnippet>
 
-`appSign`<swm-token data-swm-token=":src/services/index.js:44:6:6:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>:
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 src/services/index.js
+<SwmSnippet path="/src/services/index.js" line="44">
+
+---
+
+<SwmToken path="/src/services/index.js" pos="44:3:3" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`appID`</SwmToken>: jjfeiwoajfoiewa
+
+<SwmToken path="/src/services/index.js" pos="44:6:6" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`appSign`</SwmToken>:
+
 ```javascript
-44         init(appID, appSign, userID, userName, plugins, config = {}) {
+    init(appID, appSign, userID, userName, plugins, config = {}) {
 ```
 
-<br/>
+---
 
-<br/>
+</SwmSnippet>
 
-<br/>
+&nbsp;
+
+<SwmSnippet path="/src/services/index.js" line="132">
+
+---
 
 Service初始化后的回调
 
-`callbackID`<swm-token data-swm-token=":src/services/index.js:132:3:3:`    onInit(callbackID, callback) {`"/>: 在多个地方监听onInit方法需要提供该id
+<SwmToken path="/src/services/index.js" pos="132:3:3" line-data="    onInit(callbackID, callback) {">`callbackID`</SwmToken>: 在多个地方监听onInit方法需要提供该id
 
-`callback`<swm-token data-swm-token=":src/services/index.js:132:6:6:`    onInit(callbackID, callback) {`"/>: 在service初始化完成后该方法会被调用
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 src/services/index.js
+<SwmToken path="/src/services/index.js" pos="132:6:6" line-data="    onInit(callbackID, callback) {">`callback`</SwmToken>: 在service初始化完成后该方法会被调用
+
 ```javascript
-132        onInit(callbackID, callback) {
+    onInit(callbackID, callback) {
 ```
 
-<br/>
+---
+
+</SwmSnippet>
+
+<SwmSnippet path="/src/services/defines.js" line="5">
+
+---
 
 单人视频通话配置
 
-`turnOnCameraWhenJoining`<swm-token data-swm-token=":src/services/defines.js:6:1:1:`    turnOnCameraWhenJoining: true,`"/>
+<SwmToken path="/src/services/defines.js" pos="6:1:1" line-data="    turnOnCameraWhenJoining: true,">`turnOnCameraWhenJoining`</SwmToken>
 
-`turnOnMicrophoneWhenJoining`<swm-token data-swm-token=":src/services/defines.js:7:1:1:`    turnOnMicrophoneWhenJoining: true,`"/>: 加入房间时打开麦克风
+<SwmToken path="/src/services/defines.js" pos="7:1:1" line-data="    turnOnMicrophoneWhenJoining: true,">`turnOnMicrophoneWhenJoining`</SwmToken>: 加入房间时打开麦克风
 
-`useSpeakerWhenJoining`<swm-token data-swm-token=":src/services/defines.js:8:1:1:`    useSpeakerWhenJoining: true,`"/>
+<SwmToken path="/src/services/defines.js" pos="8:1:1" line-data="    useSpeakerWhenJoining: true,">`useSpeakerWhenJoining`</SwmToken>
 
-`layout`<swm-token data-swm-token=":src/services/defines.js:9:1:1:`    layout: {`"/>
+<SwmToken path="/src/services/defines.js" pos="9:1:1" line-data="    layout: {">`layout`</SwmToken>
 
-<!-- empty line --><br/>
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 src/services/defines.js
+&nbsp;
+
 ```javascript
-5      const ONE_ON_ONE_VIDEO_CALL_CONFIG = {
+const ONE_ON_ONE_VIDEO_CALL_CONFIG = {
 ```
 
-<br/>
+---
 
-<br/>
+</SwmSnippet>
 
-The parameters you can set for the `bottomMenuBarConfig`<swm-token data-swm-token=":src/call/index.js:34:1:1:`        bottomMenuBarConfig = {},`"/>
+&nbsp;
 
-`maxCount2`<swm-token data-swm-token=":src/call/index.js:73:1:1:`        maxCount2: topMaxCount = 3,`"/> : 最多只显示maxCount个按钮
+The parameters you can set for the <SwmToken path="/src/call/index.js" pos="34:1:1" line-data="        bottomMenuBarConfig = {},">`bottomMenuBarConfig`</SwmToken>
 
-`buttons`<swm-token data-swm-token=":src/call/index.js:56:1:1:`        buttons = [`"/>: 指定在底部默认显示的按钮
+<SwmToken path="/src/call/index.js" pos="73:1:1" line-data="        maxCount2: topMaxCount = 3,">`maxCount2`</SwmToken> : 最多只显示maxCount个按钮
 
-`extendButtons`<swm-token data-swm-token=":src/call/index.js:74:1:1:`        extendButtons: topExtendButtons = [],`"/>: 可以放置你自定义的按钮
+<SwmToken path="/src/call/index.js" pos="56:1:1" line-data="        buttons = [">`buttons`</SwmToken>: 指定在底部默认显示的按钮
 
-<br/>
+<SwmToken path="/src/call/index.js" pos="74:1:1" line-data="        extendButtons: topExtendButtons = [],">`extendButtons`</SwmToken>: 可以放置你自定义的按钮
+
+<SwmSnippet path="/src/services/index.js" line="44">
+
+---
 
 调用该方法以初始化Service
 
-`appID`<swm-token data-swm-token=":src/services/index.js:44:3:3:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>：可以总ZEGO控制台获取
+<SwmToken path="/src/services/index.js" pos="44:3:3" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`appID`</SwmToken>：可以总ZEGO控制台获取
 
-`appSign`<swm-token data-swm-token=":src/services/index.js:44:6:6:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>：可以从ZEGO控制台获取
+<SwmToken path="/src/services/index.js" pos="44:6:6" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`appSign`</SwmToken>：可以从ZEGO控制台获取
 
-`userID`<swm-token data-swm-token=":src/services/index.js:44:9:9:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>: 任意有效的字符串
+<SwmToken path="/src/services/index.js" pos="44:9:9" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`userID`</SwmToken>: 任意有效的字符串
 
-`userName`<swm-token data-swm-token=":src/services/index.js:44:12:12:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>: 任意有效的字符串
+<SwmToken path="/src/services/index.js" pos="44:12:12" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`userName`</SwmToken>: 任意有效的字符串
 
-`plugins`<swm-token data-swm-token=":src/services/index.js:44:15:15:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>: 插件数组
+<SwmToken path="/src/services/index.js" pos="44:15:15" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`plugins`</SwmToken>: 插件数组
 
-`config`<swm-token data-swm-token=":src/services/index.js:44:18:18:`    init(appID, appSign, userID, userName, plugins, config = {}) {`"/>: 初始化相关配置参数
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 src/services/index.js
+<SwmToken path="/src/services/index.js" pos="44:18:18" line-data="    init(appID, appSign, userID, userName, plugins, config = {}) {">`config`</SwmToken>: 初始化相关配置参数
+
 ```javascript
-44         init(appID, appSign, userID, userName, plugins, config = {}) {
+    init(appID, appSign, userID, userName, plugins, config = {}) {
 ```
 
-<br/>
+---
+
+</SwmSnippet>
 
 ```
 // App.js
@@ -132,6 +146,4 @@ export default function VoiceCallPage(props) {
 }
 ```
 
-<br/>
-
-This file was generated by Swimm. [Click here to view it in the app](https://app.swimm.io/repos/Z2l0aHViJTNBJTNBemVnb191aWtpdF9wcmVidWlsdF9jYWxsX3JuJTNBJTNBTWF0Y2gtWWFuZw==/docs/ud88w).
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBemVnb191aWtpdF9wcmVidWlsdF9jYWxsX3JuJTNBJTNBTWF0Y2gtWWFuZw==" repo-name="zego_uikit_prebuilt_call_rn"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
