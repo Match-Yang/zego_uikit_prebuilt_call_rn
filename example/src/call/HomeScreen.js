@@ -7,7 +7,7 @@ export default function HomeScreen(props) {
     const navigation = useNavigation();
     const onJoinPress = (isVoiceCall) => {
         navigation.navigate(isVoiceCall ? 'VoiceCallScreen' : 'VideoCallScreen', {
-            userIDs: userID,
+            userID: userID,
             userName: userID,
             callID: callID,
         })
